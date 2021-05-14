@@ -318,17 +318,19 @@ function (dojo,
             }
           }
           var deferred = new Deferred();
-          layer.layerObject.selectFeatures(q, FeatureLayer.SELECTION_NEW,
-            function (features) {
-              deferred.resolve({ "features": features });
-            }, function (error) {
-              deferred.resolve({
-                "features": [],
-                "error": error
+          if(layer.layerObject.visible) {
+            layer.layerObject.selectFeatures(q, FeatureLayer.SELECTION_NEW,
+              function (features) {
+                deferred.resolve({ "features": features });
+              }, function (error) {
+                deferred.resolve({
+                  "features": [],
+                  "error": error
+                });
               });
-            });
-          //def.then(this._callback(deferred), this._errorback(deferred));
-          defs[layer.id] = deferred;
+            //def.then(this._callback(deferred), this._errorback(deferred));
+            defs[layer.id] = deferred;
+          }
         }
       }, this);
       if (this.isEmptyObject(defs)) {
@@ -1365,7 +1367,7 @@ function (dojo,
                 if ((dataType === "DateTime") || (dataType === "Date")) {
                   comboBox.set("displayedValue", data.name);
                 } else {
-                  comboBox.set("value", evt);                  
+                  comboBox.set("value", evt);
                 }
               }
             }));
@@ -1512,7 +1514,7 @@ function (dojo,
                 evtJustDate = locale.format(dtValue, { selector: 'date', fullYear: true });
                 var valueDate = new Date(comboBox.get('value'));
                 valueInEpoch = Date.parse(valueDate);
-                var dtInEpoch = Date.parse(dtValue);                
+                var dtInEpoch = Date.parse(dtValue);
                 if (valueInEpoch !== dtInEpoch && existDate === false) {
                   if(valueDate.toString() === "Invalid Date") {
                     valid = false;
@@ -1574,7 +1576,7 @@ function (dojo,
                 if (valueInEpoch !== dtInEpoch && existDate === false) {
                   if(valueDate.toString() === "Invalid Date") {
                     valid = false;
-                  } 
+                  }
                 }
                 else {
                   evt = dtValue.getTime();
@@ -1672,12 +1674,12 @@ function (dojo,
         'valid': true, 'evt': d, 'textCell': pParams.textCell,
         'dataType': pParams.dataType
       });
-      
+
       if (pParams.dataType === "DateTime") {
         this._destroyTimePickerExt({ 'row': pParams.row });
-        this._createTimePicker(pParams);  
-      }  
-        
+        this._createTimePicker(pParams);
+      }
+
       on(txtDate, 'change', lang.hitch(this, function (evt) {
         var enableSave = true;
         if (evt !== undefined && evt !== null) {
