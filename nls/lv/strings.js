@@ -1,9 +1,9 @@
 define({
   "_widgetLabel": "Atribūtu pakešredaktors",
-  "widgetIntroSelectByArea": "Izmantojiet kādu no tālāk pieejamajiem rīkiem, lai izveidotu atlasīto atjaunināmo elementu kopu.  Ja rinda ir <font class='maxRecordInIntro'>izcelta</font>, ir pārsniegts maksimālais ierakstu skaits.",
-  "widgetIntroSelectByFeature": "Izmantojiet tālāk pieejamo rīku, lai atlasītu elementu slānī <font class='layerInIntro'>${0}</font>.  Šis elements tiks izmantots, lai atlasītu un atjauninātu visus šķērsotos elementus.  Ja rinda ir <font class='maxRecordInIntro'>izcelta</font>, ir pārsniegts maksimālais ierakstu skaits.",
-  "widgetIntroSelectByFeatureQuery": "Izmantojiet tālāk pieejamo rīku, lai atlasītu elementu šeit: <font class='layerInIntro'>${0}</font>.  Šī elementa atribūts <font class='layerInIntro'>${1}</font> tiks izmantots, lai izpildītu vaicājumu tālāk esošajos slāņos un atjauninātu rezultātu elementus.  Ja rinda ir <font class='maxRecordInIntro'>izcelta</font>, ir pārsniegts maksimālais ierakstu skaits.",
-  "widgetIntroSelectByQuery": "Ievadiet vērtību, lai izveidotu atlases kopu.  Ja rinda ir <font class='maxRecordInIntro'>izcelta</font>, ir pārsniegts maksimālais ierakstu skaits.",
+  "widgetIntroSelectByArea": "Use one of the tools below to create a selected set of features to update.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeature": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> layer.  This feature will be used select and update all intersecting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeatureQuery": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> .  This feature's <font class='layerInIntro'>${1}</font> attribute will be used to query the layers below and update the resulting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByQuery": "Enter a value to create a selection set.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
   "layerTable": {
     "colLabel": "Slāņa nosaukums",
     "numSelected": "#",
@@ -17,9 +17,10 @@ define({
   "featuresUpdated": "Atjaunināts(-i) ${0}/${1} elementiem",
   "featuresSelected": "Atlasīts(-i) ${0} elements(-i)",
   "featuresSkipped": "Apiets",
+  "featuresNoPermision": "Atlasīts(-i) ${0} elements(-i), bet nav atļaujas rediģēt.",
   "search": "Meklēšana",
   "queryInput": "Ievadiet vērtību vaicājumam",
-  "noFilterTip": "Bez definētas filtra izteiksmes šajā vaicājuma uzdevumā būs norādīti visi elementi norādītajā datu avotā.",
+  "noFilterTip": "Without filter expression defined, this query task will list all features in the specified data source.",
   "setFilterTip": "Lūdzu, pareizi iestatiet filtru.",
   "filterPopup": "Slāņa filtrs",
   "filterAppend": "Ja šī slāņa tīmekļa kartē jau ir filtrs",
@@ -47,7 +48,7 @@ define({
     "startToolTip": "Zīmējiet formu, lai atlasītu elementus"
   },
   "errors": {
-    "layerNotFound": "Slānis ${0} ar ID ${1} netika atrasts kartē; iespējams, ka karte ir mainīta pēc logrīka konfigurēšanas",
+    "layerNotFound": "Layer ${0} with ID ${1} was not found in the map, the map may have changed since the widgets configuration",
     "queryNullID": "Elements no ${0} atgrieza nederīgu ID",
     "noSelectedLayers": "Nav atlasītu slāņu ar atjaunināmiem ierakstiem",
     "inputValueError": "Nederīga vērtība veidlapā",

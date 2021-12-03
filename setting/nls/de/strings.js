@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Freihand-Polygon",
     "selectBySpatQuery": "Nach Feature auswählen",
-    "selectByAttQuery": "Nach Feature & zugehörigen Features auswählen",
+    "selectByAttQuery": "Nach Feature und gemeinsamen Attributwerten auswählen",
     "selectByQuery": "Nach Abfrage auswählen",
     "toolNotSelected": "Wählen Sie eine Auswahlmethode aus",
     "noDrawToolSelected": "Wählen Sie mindestens ein Zeichenwerkzeug aus"

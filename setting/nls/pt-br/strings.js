@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Polígono À Mão Livre",
     "selectBySpatQuery": "Selecionar por Feição",
-    "selectByAttQuery": "Selecionar por Feição & Feições Relacionadas",
+    "selectByAttQuery": "Selecionar por Feição e Valores de Atributos Compartilhados",
     "selectByQuery": "Selecionar por Consulta",
     "toolNotSelected": "Selecione um método de seleção",
     "noDrawToolSelected": "Escolha pelo menos uma ferramenta de desenho"

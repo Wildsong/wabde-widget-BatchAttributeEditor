@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Polígono À Mão Livre",
     "selectBySpatQuery": "Selecionar por Elemento",
-    "selectByAttQuery": "Selecionar por Elemento &amp; Elementos Relacionados",
+    "selectByAttQuery": "Selecionar por Elemento e Valores de Atributos Partilhados",
     "selectByQuery": "Selecionar por Consulta",
     "toolNotSelected": "Por favor escolha um método de seleção",
     "noDrawToolSelected": "Escolha pelo menos uma ferramenta de desenho"

@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Frihåndspolygon",
     "selectBySpatQuery": "Velg etter geoobjekt",
-    "selectByAttQuery": "Velg etter geoobjekt og relaterte geoobjekter",
+    "selectByAttQuery": "Velg etter geoobjekt og delte attributtverdier",
     "selectByQuery": "Velg etter spørring",
     "toolNotSelected": "Velg en utvalgsmetode",
     "noDrawToolSelected": "Velg minst ett tegneverktøy"

@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Poligon Bebas",
     "selectBySpatQuery": "Pilih menurut Fitur",
-    "selectByAttQuery": "Pilih menurut Fitur & Fitur Terkait",
+    "selectByAttQuery": "Pilih berdasarkan Nilai Fitur dan Atribut Bersama",
     "selectByQuery": "Pilih menurut Pertanyaan",
     "toolNotSelected": "Pilihlah suatu metode pemilihan",
     "noDrawToolSelected": "Pilih setidaknya satu alat gambar"

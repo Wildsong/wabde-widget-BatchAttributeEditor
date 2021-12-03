@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Frihåndspolygon",
     "selectBySpatQuery": "Valgt efter objekt",
-    "selectByAttQuery": "Vælg efter objekt og relaterede objekter",
+    "selectByAttQuery": "Vælg efter objekter og fælles attributværdier",
     "selectByQuery": "Vælg efter forespørgsel",
     "toolNotSelected": "Vælg en udvælgelsesmetode",
     "noDrawToolSelected": "Vælg mindst ét tegneværktøj"

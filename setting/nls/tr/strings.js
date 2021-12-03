@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Serbest Çizim Alan",
     "selectBySpatQuery": "Detaya Göre Seç",
-    "selectByAttQuery": "Detaya ve İlgili Detaylara Göre Seç",
+    "selectByAttQuery": "Detay ve Paylaşılan Öznitelik Değerlerine göre Seç",
     "selectByQuery": "Sorguya Göre Seç",
     "toolNotSelected": "Seçim yöntemi belirleyin",
     "noDrawToolSelected": "Lütfen en az bir çizim aracı seçin"

@@ -1,9 +1,9 @@
 define({
   "_widgetLabel": "Atributų paketo rengyklė",
-  "widgetIntroSelectByArea": "Naudodami toliau pateikiamus įrankius kurkite pasirinktus elementų rinkinius, kad atnaujintumėte.  Jeigu eilutė <font class='maxRecordInIntro'>išryškinama</font>, viršyta maksimali įrašų riba.",
-  "widgetIntroSelectByFeature": "Naudokite toliau pateikiamą įrankį, kad pasirinktumėte elementą iš <font class='layerInIntro'>${0}</font> sluoksnio.  Ši funkcija bus naudojama pasirinkti ir atnaujinti visus susikertančius elementus.  Jeigu eilutė <font class='maxRecordInIntro'>išryškinama</font>, viršyta maksimali įrašų riba.",
-  "widgetIntroSelectByFeatureQuery": "Naudokite toliau pateikiamą įrankį iš <font class='layerInIntro'>${0}</font> .  Šio elemento <font class='layerInIntro'>${1}</font> atributas bus naudojamas vykdyti toliau pateikiamų sluoksnių užklausas ir atnaujinti gautus elementus.  Jeigu eilutė <font class='maxRecordInIntro'>išryškinama</font>, viršyta maksimali įrašų riba.",
-  "widgetIntroSelectByQuery": "Įveskite reikšmę, kad sukurtumėte pasirinkimų rinkinį.  Jeigu eilutė <font class='maxRecordInIntro'>išryškinama</font>, viršyta maksimali įrašų riba.",
+  "widgetIntroSelectByArea": "Use one of the tools below to create a selected set of features to update.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeature": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> layer.  This feature will be used select and update all intersecting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeatureQuery": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> .  This feature's <font class='layerInIntro'>${1}</font> attribute will be used to query the layers below and update the resulting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByQuery": "Enter a value to create a selection set.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
   "layerTable": {
     "colLabel": "Sluoksnio pavadinimas",
     "numSelected": "#",
@@ -17,9 +17,10 @@ define({
   "featuresUpdated": "${0} / ${1} elementas (-ų) atnaujintas",
   "featuresSelected": "${0} elementas (-ų) pasirinktas",
   "featuresSkipped": "Apeita",
+  "featuresNoPermision": "Pasirinkta (-os) ${0} funkcija (-os), bet nėra leidimo redaguoti.",
   "search": "Ieškoti",
   "queryInput": "Įveskite reikšmę į užklausą",
-  "noFilterTip": "Nenustačius filtro sąlygos, ši užklausos užduotis nurodys visus nurodyto duomenų šaltinio elementus.",
+  "noFilterTip": "Without filter expression defined, this query task will list all features in the specified data source.",
   "setFilterTip": "Nustatykite filtrą tinkamai.",
   "filterPopup": "Filtruoti sluoksnį",
   "filterAppend": "Jei šio sluoksnio internetiniame žemėlapyje jau yra filtras",
@@ -47,7 +48,7 @@ define({
     "startToolTip": "Nubrėžkite figūrą, kad pasirinktumėte elementus"
   },
   "errors": {
-    "layerNotFound": "Sluoksnis ${0} su ID ${1} žemėlapyje nerastas, gali būti, kad po valdiklių konfigūracijos žemėlapis pasikeitė",
+    "layerNotFound": "Layer ${0} with ID ${1} was not found in the map, the map may have changed since the widgets configuration",
     "queryNullID": "Elementas iš ${0} pateikė netinkamą ID",
     "noSelectedLayers": "Nėra naujinamų sluoksnių su įrašais",
     "inputValueError": "Netinkama reikšmė formoje",

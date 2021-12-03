@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Poligon odręczny",
     "selectBySpatQuery": "Wybierz według obiektu",
-    "selectByAttQuery": "Wybierz według obiektu i obiektów powiązanych",
+    "selectByAttQuery": "Wybierz według wartości obiektu i udostępnionego atrybutu",
     "selectByQuery": "Wybierz według zapytania",
     "toolNotSelected": "Określ metodę wyboru",
     "noDrawToolSelected": "Wybierz co najmniej jedno narzędzie rysowania"

@@ -1,9 +1,9 @@
 define({
   "_widgetLabel": "Batch-attribut-editor",
-  "widgetIntroSelectByArea": "Brug et af værktøjerne nedenfor til at oprette et valgt sæt af objekter, der skal opdateres.  Hvis rækken er <font class='maxRecordInIntro'>fremhævet</font>, er det maksimale antal poster overskredet.",
-  "widgetIntroSelectByFeature": "Brug værktøjet nedenfor til at vælge et objekt fra <font class='layerInIntro'>${0}</font> laget.  Dette objekt vil blive brugt til at vælge og opdatere alle objekter, der er gennemskåret.  Hvis rækken er <font class='maxRecordInIntro'>fremhævet</font>, er det maksimale antal poster overskredet.",
-  "widgetIntroSelectByFeatureQuery": "Brug værktøjet nedenfor til at vælge et objekt fra <font class='layerInIntro'>${0}</font> .  Dette objekts <font class='layerInIntro'>${1}</font> attribut vil blive brugt til at sende forespørgsler vedrørende lagene nedenfor og opdatere de resulterende objekter.  Hvis rækken er <font class='maxRecordInIntro'>fremhævet</font>, er det maksimale antal poster overskredet.",
-  "widgetIntroSelectByQuery": "Angiv en værdi for at oprette et valgt sæt.  Hvis rækken er <font class='maxRecordInIntro'>fremhævet</font>, er det maksimale antal poster overskredet.",
+  "widgetIntroSelectByArea": "Use one of the tools below to create a selected set of features to update.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeature": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> layer.  This feature will be used select and update all intersecting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeatureQuery": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> .  This feature's <font class='layerInIntro'>${1}</font> attribute will be used to query the layers below and update the resulting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByQuery": "Enter a value to create a selection set.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
   "layerTable": {
     "colLabel": "Navn på lag",
     "numSelected": "#",
@@ -17,9 +17,10 @@ define({
   "featuresUpdated": "${0} / ${1} objekt(er) opdateret",
   "featuresSelected": "${0} objekt(er) valgt",
   "featuresSkipped": "Tilsidesat",
+  "featuresNoPermision": "${0} objekt(er) er valgt, men ingen redigeringstilladelse.",
   "search": "Search",
   "queryInput": "Angiv en værdi, der skal forespørges om",
-  "noFilterTip": "Defineres der ikke et filterudtryk, viser denne forespørgsel alle objekter i den angivne datakilde.",
+  "noFilterTip": "Without filter expression defined, this query task will list all features in the specified data source.",
   "setFilterTip": "Angiv filteret korrekt.",
   "filterPopup": "Filtrér lag",
   "filterAppend": "Der findes allerede et filter for dette lag i webkortet",
@@ -47,7 +48,7 @@ define({
     "startToolTip": "Tegn en form for at vælge objekter"
   },
   "errors": {
-    "layerNotFound": "Laget ${0} med id'et ${1} blev ikke fundet på kortet, kortlaget kan være ændret siden widget-konfigurationen",
+    "layerNotFound": "Layer ${0} with ID ${1} was not found in the map, the map may have changed since the widgets configuration",
     "queryNullID": "Objektet fra ${0} returnerede et ugyldigt id",
     "noSelectedLayers": "Ingen valgte lag med poster, der skal opdateres",
     "inputValueError": "Ugyldig værdi i formularen",

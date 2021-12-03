@@ -1,9 +1,9 @@
 define({
   "_widgetLabel": "Editor de atributos por lotes",
-  "widgetIntroSelectByArea": "Use una de las siguientes herramientas para crear un conjunto seleccionado de entidades para actualizar.  Si la fila está <font class='maxRecordInIntro'>resaltada</font>, quiere decir que se ha excedido el número máximo de registros.",
-  "widgetIntroSelectByFeature": "Utilice la herramienta que aparece a continuación para seleccionar una entidad de la capa <font class='layerInIntro'>${0}</font>.  Esta entidad se utilizará para seleccionar y actualizar todas las entidades de intersección.  Si la fila está <font class='maxRecordInIntro'>resaltada</font>, quiere decir que se ha excedido el número máximo de registros.",
-  "widgetIntroSelectByFeatureQuery": "Utilice la herramienta que aparece a continuación para seleccionar una entidad de <font class='layerInIntro'>${0}</font>.  El atributo <font class='layerInIntro'>${1}</font> de esta entidad se utilizará para consultar las siguientes capas y actualizar las entidades resultantes.  Si la fila está <font class='maxRecordInIntro'>resaltada</font>, quiere decir que se ha excedido el número máximo de registros.",
-  "widgetIntroSelectByQuery": "Introduzca un valor para crear un conjunto de selección.  Si la fila está <font class='maxRecordInIntro'>resaltada</font>, quiere decir que se ha excedido el número máximo de registros.",
+  "widgetIntroSelectByArea": "Use one of the tools below to create a selected set of features to update.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeature": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> layer.  This feature will be used select and update all intersecting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeatureQuery": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> .  This feature's <font class='layerInIntro'>${1}</font> attribute will be used to query the layers below and update the resulting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByQuery": "Enter a value to create a selection set.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
   "layerTable": {
     "colLabel": "Nombre de la capa",
     "numSelected": "#",
@@ -17,9 +17,10 @@ define({
   "featuresUpdated": "${0}/${1} entidad(es) actualizada(s)",
   "featuresSelected": "${0} entidad(es) seleccionada(s)",
   "featuresSkipped": "Omitido",
+  "featuresNoPermision": "${0} entidad o entidades seleccionadas, pero no se dispone del permiso de edición.",
   "search": "Búsqueda",
   "queryInput": "Introduce el valor que deseas consultar",
-  "noFilterTip": "Sin expresión de filtro definida, esta tarea de consulta enumerará todas las entidades de la fuente de datos especificada.",
+  "noFilterTip": "Without filter expression defined, this query task will list all features in the specified data source.",
   "setFilterTip": "Define el filtro correctamente.",
   "filterPopup": "Capa de filtro",
   "filterAppend": "Si ya existe un filtro en el mapa web para esta capa",
@@ -47,7 +48,7 @@ define({
     "startToolTip": "Dibuja una forma para seleccionar entidades"
   },
   "errors": {
-    "layerNotFound": "La capa ${0} con el Id. ${1} no se ha encontrado en el mapa. Es posible que el mapa haya cambiado desde la configuración de los widgets.",
+    "layerNotFound": "Layer ${0} with ID ${1} was not found in the map, the map may have changed since the widgets configuration",
     "queryNullID": "La entidad de ${0} ha devuelto un Id. no válido",
     "noSelectedLayers": "No se ha seleccionado ninguna capa con registros para actualizar",
     "inputValueError": "Valor no válido en el formulario",

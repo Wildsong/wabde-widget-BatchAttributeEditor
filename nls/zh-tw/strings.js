@@ -1,9 +1,9 @@
 define({
   "_widgetLabel": "批次屬性編輯器",
-  "widgetIntroSelectByArea": "使用下列其中一個工具來建立要更新的所選圖徵集。 如果<font class='maxRecordInIntro'>突顯</font>列，則表示已超過記錄數上限。",
-  "widgetIntroSelectByFeature": "使用下列工具，從 <font class='layerInIntro'>${0}</font> 圖層選擇圖徵。 此圖徵將用於選擇和更新所有相交圖徵。 如果<font class='maxRecordInIntro'>突顯</font>列，則表示已超過記錄數上限。",
-  "widgetIntroSelectByFeatureQuery": "使用下列工具，從 <font class='layerInIntro'>${0}</font> 選擇圖徵。 此圖徵的 <font class='layerInIntro'>${1}</font> 屬性將用來查詢下列圖層及更新結果圖徵。 如果<font class='maxRecordInIntro'>突顯</font>列，則表示已超過記錄數上限。",
-  "widgetIntroSelectByQuery": "輸入值以建立選擇集。 如果<font class='maxRecordInIntro'>突顯</font>列，則表示已超過記錄數上限。",
+  "widgetIntroSelectByArea": "Use one of the tools below to create a selected set of features to update.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeature": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> layer.  This feature will be used select and update all intersecting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeatureQuery": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> .  This feature's <font class='layerInIntro'>${1}</font> attribute will be used to query the layers below and update the resulting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByQuery": "Enter a value to create a selection set.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
   "layerTable": {
     "colLabel": "圖層名稱",
     "numSelected": "#",
@@ -17,9 +17,10 @@ define({
   "featuresUpdated": "已更新 ${0} / ${1} 圖徵",
   "featuresSelected": "已選擇 ${0} 圖徵",
   "featuresSkipped": "已略過",
+  "featuresNoPermision": "已選擇 ${0} 個圖徵，但無編輯權限。",
   "search": "搜尋",
   "queryInput": "輸入要查詢的值",
-  "noFilterTip": "在未定義篩選表達式的情況下，此查詢任務會列出指定資料來源中的所有圖徵。",
+  "noFilterTip": "Without filter expression defined, this query task will list all features in the specified data source.",
   "setFilterTip": "請正確設定篩選程式。",
   "filterPopup": "篩選圖層",
   "filterAppend": "如果 Web 地圖已存在此圖層的篩選器。",
@@ -47,7 +48,7 @@ define({
     "startToolTip": "繪製形狀以選擇圖徵"
   },
   "errors": {
-    "layerNotFound": "在地圖中找不到包含 ID ${1} 的圖層 ${0}，地圖在 widget 配置後可能已變更",
+    "layerNotFound": "Layer ${0} with ID ${1} was not found in the map, the map may have changed since the widgets configuration",
     "queryNullID": "${0} 的圖徵傳回無效的 ID",
     "noSelectedLayers": "沒有包含要更新記錄的所選圖層",
     "inputValueError": "表單中有無效值",

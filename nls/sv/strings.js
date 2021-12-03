@@ -1,9 +1,9 @@
 define({
   "_widgetLabel": "Batchattributredigeraren",
-  "widgetIntroSelectByArea": "Använd något av verktygen nedan för att skapa en markerad uppsättning geoobjekt som ska uppdateras. Om raden är <font class='maxRecordInIntro'>markerad</font> har det maximala antalet poster uppnåtts.",
-  "widgetIntroSelectByFeature": "Använd verktyget nedan för att välja ett geoobjekt från <font class='layerInIntro'>${0}</font> lagret. Den här funktionen används för att markera och uppdatera alla korsande geoobjekt. Om raden är <font class='maxRecordInIntro'>markerad</font> har det maximala antalet poster uppnåtts.",
-  "widgetIntroSelectByFeatureQuery": "Använd verktyget nedan för att välja ett geoobjekt från <font class='layerInIntro'>${0}</font>. Det här geoobjektets <font class='layerInIntro'>${1}</font> attribut används för att söka i lagren nedan och uppdatera de resulterande geoobjekten. Om raden är <font class='maxRecordInIntro'>markerad</font> har det maximala antalet poster uppnåtts.",
-  "widgetIntroSelectByQuery": "Ange ett värde för att skapa en markeringsuppsättning. Om raden är <font class='maxRecordInIntro'>markerad</font> har det maximala antalet poster uppnåtts.",
+  "widgetIntroSelectByArea": "Use one of the tools below to create a selected set of features to update.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeature": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> layer.  This feature will be used select and update all intersecting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeatureQuery": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> .  This feature's <font class='layerInIntro'>${1}</font> attribute will be used to query the layers below and update the resulting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByQuery": "Enter a value to create a selection set.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
   "layerTable": {
     "colLabel": "Lagernamn",
     "numSelected": "#",
@@ -17,9 +17,10 @@ define({
   "featuresUpdated": "${0}/${1} geoobjekt har uppdaterats",
   "featuresSelected": "${0} geoobjekt har markerats",
   "featuresSkipped": "Har kringgåtts",
+  "featuresNoPermision": "${0} geoobjekt har valts men ingen behörighet att redigera.",
   "search": "Sök",
   "queryInput": "Ange ett värde för en fråga",
-  "noFilterTip": "Om inget filteruttryck definierats visar denna frågeuppgift en lista med alla geoobjekt i den angivna datakällan.",
+  "noFilterTip": "Without filter expression defined, this query task will list all features in the specified data source.",
   "setFilterTip": "Ange filtret korrekt.",
   "filterPopup": "Filtrera lager",
   "filterAppend": "Om filtret redan finns i webbkartan för det här lagret.",
@@ -47,7 +48,7 @@ define({
     "startToolTip": "Markera geoobjekt genom att rita en form"
   },
   "errors": {
-    "layerNotFound": "Lagret ${0} med ID:t ${1} hittades inte i kartan. Kartan kan ha ändrats efter att widgeten konfigurerades.",
+    "layerNotFound": "Layer ${0} with ID ${1} was not found in the map, the map may have changed since the widgets configuration",
     "queryNullID": "Geoobjektet från ${0} returnerade ett ogiltigt ID",
     "noSelectedLayers": "Inga markerade lager har poster att uppdatera",
     "inputValueError": "Ogiltigt värde i formuläret",

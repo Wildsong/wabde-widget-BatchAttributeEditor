@@ -1,9 +1,9 @@
 define({
   "_widgetLabel": "แก้ไขแอตทริบิวต์ของชุดงาน",
-  "widgetIntroSelectByArea": "ใช้หนึ่งในเครื่องมือด้านล่าง เพื่อสร้างชุดฟีเจอร์ที่จะอัพเดต หากแถว <font class='maxRecordInIntro'>ถูกไฮไลท์</font> แสดงว่าใช้งานเกินจำนวนบันทึกสูงสุด",
-  "widgetIntroSelectByFeature": "ใช้เครื่องมือด้านล่างเพื่อเลือกฟีเจอร์จาก <font class='layerInIntro'>${0}</font> ชั้นข้อมูล ฟีเจอร์นี้จะถูกใช้ในการเลือกและอัพเดตฟีเจอร์ที่ตัดกันทั้งหมด หากแถว <font class='maxRecordInIntro'>ถูกไฮไลท์</font> แสดงว่าใช้งานเกินจำนวนบันทึกสูงสุด",
-  "widgetIntroSelectByFeatureQuery": "ใช้เครื่องมือด้านล่างเพื่อเลือกฟีเจอร์จาก <font class='layerInIntro'>${0}</font> แอตทริบิวต์ <font class='layerInIntro'>${1}</font> ของฟีเจอร์นี้ จะถูกใช้เพื่อสืบค้นชั้นข้อมูลด้านล่าง และอัพเดตฟีเจอร์ผลลัพธ์ที่ได้ หากแถว <font class='maxRecordInIntro'>ถูกไฮไลท์</font> แสดงว่าใช้งานเกินจำนวนบันทึกสูงสุด",
-  "widgetIntroSelectByQuery": "ป้อนค่าเพื่อสร้างชุดการเลือก หากแถว <font class='maxRecordInIntro'>ถูกไฮไลท์</font> แสดงว่าใช้งานเกินจำนวนบันทึกสูงสุด",
+  "widgetIntroSelectByArea": "Use one of the tools below to create a selected set of features to update.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeature": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> layer.  This feature will be used select and update all intersecting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeatureQuery": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> .  This feature's <font class='layerInIntro'>${1}</font> attribute will be used to query the layers below and update the resulting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByQuery": "Enter a value to create a selection set.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
   "layerTable": {
     "colLabel": "ชื่อชั้นข้อมูล",
     "numSelected": "#",
@@ -17,9 +17,10 @@ define({
   "featuresUpdated": "${0} / ${1} คุณลักษณะที่มีการอัพเดต",
   "featuresSelected": "${0} คุณลักษณะที่เลือก",
   "featuresSkipped": "ข้าม",
+  "featuresNoPermision": "ฟีเจอร์ ${0} ที่เลือกแต่ไม่ได้รับอนุญาตให้แก้ไข",
   "search": "ค้นหา",
   "queryInput": "ระบุค่าในการค้นหา",
-  "noFilterTip": "หากไม่กำหนดตัวกรอง  แบบสอบถามนี้จะแสดงรายการคุณลักษณะทั้งหมดในแหล่งข้อมูลที่ระบุ",
+  "noFilterTip": "Without filter expression defined, this query task will list all features in the specified data source.",
   "setFilterTip": "โปรดตั้งค่าตัวกรองให้ถูกต้อง",
   "filterPopup": "ตัวกรองชั้นข้อมูล",
   "filterAppend": "หากมีตัวกรองในเว็บแมปสำหรับชั้นข้อมูลนี้อยู่แล้ว",
@@ -47,7 +48,7 @@ define({
     "startToolTip": "วาดรูปร่างเพื่อเลือกคุณสมบัติ"
   },
   "errors": {
-    "layerNotFound": "ชั้นข้อมูล ${0} กับ ID ${1} ไม่พบในแผนที่  แผนที่อาจมีการเปลี่ยนแปลงตั้งแต่การตั้งค่าเครื่องมือ",
+    "layerNotFound": "Layer ${0} with ID ${1} was not found in the map, the map may have changed since the widgets configuration",
     "queryNullID": "คุณลักษณะจาก ${0} ถูกส่งกลับเนื่องจาก ID ไม่ถูกต้อง",
     "noSelectedLayers": "ไม่ได้เลือกชั้นข้อมูลจากเรคคอร์ดที่มีการอัพเดต",
     "inputValueError": "ค่าอยู่ในรูปแบบที่ไม่ถูกต้อง",

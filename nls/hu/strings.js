@@ -1,9 +1,9 @@
 define({
   "_widgetLabel": "Kötegelt attribútumszerkesztés",
-  "widgetIntroSelectByArea": "Az alábbi eszközök egyikével hozza létre a vektoros elemek kiválasztott frissítendő készletét.  Ha a sor <font class='maxRecordInIntro'>kiemelve</font> jelenik meg, akkor elérte a rekordok maximális számát.",
-  "widgetIntroSelectByFeature": "Az alábbi eszközzel válasszon vektoros elemet a következő rétegből: <font class='layerInIntro'>${0}</font>.  A rendszer ezt a vektoros elemet fogja használni valamennyi egymást metsző vektoros elem kiválasztásához és frissítéséhez.  Ha a sor <font class='maxRecordInIntro'>kiemelve</font> jelenik meg, akkor elérte a rekordok maximális számát.",
-  "widgetIntroSelectByFeatureQuery": "Az alábbi eszközzel válasszon vektoros elemet innen: <font class='layerInIntro'>${0}</font>.  A rendszer e vektoros elem <font class='layerInIntro'>${1}</font> attribútumát fogja használni az alábbi rétegek lekérdezéséhez és az eredmény vektoros elemek frissítéséhez.  Ha a sor <font class='maxRecordInIntro'>kiemelve</font> jelenik meg, akkor elérte a rekordok maximális számát.",
-  "widgetIntroSelectByQuery": "Adjon meg egy értéket a kiválasztási készlet létrehozásához.  Ha a sor <font class='maxRecordInIntro'>kiemelve</font> jelenik meg, akkor elérte a rekordok maximális számát.",
+  "widgetIntroSelectByArea": "Use one of the tools below to create a selected set of features to update.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeature": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> layer.  This feature will be used select and update all intersecting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeatureQuery": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> .  This feature's <font class='layerInIntro'>${1}</font> attribute will be used to query the layers below and update the resulting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByQuery": "Enter a value to create a selection set.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
   "layerTable": {
     "colLabel": "Réteg neve",
     "numSelected": "#",
@@ -17,9 +17,10 @@ define({
   "featuresUpdated": "${0} / ${1} vektoros elem frissítve",
   "featuresSelected": "${0} vektoros elem kiválasztva",
   "featuresSkipped": "Megkerülve",
+  "featuresNoPermision": "${0} vektoros elem kiválasztva, de nincs engedély a szerkesztéshez.",
   "search": "Keresés",
   "queryInput": "Adja meg a lekérdezni kívánt értéket",
-  "noFilterTip": "Szűrési kifejezés meghatározása nélkül ez a lekérdezési feladat a megadott adatforrás összes vektoros elemét felsorolja.",
+  "noFilterTip": "Without filter expression defined, this query task will list all features in the specified data source.",
   "setFilterTip": "Állítsa be megfelelően a szűrőt.",
   "filterPopup": "Szűrőréteg",
   "filterAppend": "Ha már létezik szűrő a webtérképen ehhez a réteghez",
@@ -47,7 +48,7 @@ define({
     "startToolTip": "Alakzat rajzolása a vektoros elemek kiválasztásához"
   },
   "errors": {
-    "layerNotFound": "A(z) ${0} réteg (azonosító: ${1}) nem található a térképen; lehet, hogy a térkép módosult a widget konfigurálása óta",
+    "layerNotFound": "Layer ${0} with ID ${1} was not found in the map, the map may have changed since the widgets configuration",
     "queryNullID": "A(z) ${0} rétegről származó vektoros elem azonosítója érvénytelen",
     "noSelectedLayers": "Nincsenek olyan kiválasztott rétegek, amelyek frissíthető rekordokkal rendelkeznek",
     "inputValueError": "Érvénytelen érték az űrlapon",

@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "자유곡선 폴리곤",
     "selectBySpatQuery": "피처별 선택",
-    "selectByAttQuery": "피처 및 릴레이트된 피처별 선택",
+    "selectByAttQuery": "피처 및 공유 속성 값을 기준으로 선택",
     "selectByQuery": "쿼리별 선택",
     "toolNotSelected": "선택 방법을 선택합니다.",
     "noDrawToolSelected": "그리기 도구를 하나 이상 선택하세요."

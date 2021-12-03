@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Prostoročni poligon",
     "selectBySpatQuery": "Izberi po geoobjektu",
-    "selectByAttQuery": "Izberi po geoobjektu in relacijskih geoobjektih",
+    "selectByAttQuery": "Izberite glede na geoobjekt in skupne vrednosti atributa",
     "selectByQuery": "Izberi po poizvedbi",
     "toolNotSelected": "Izberite metodo izbire",
     "noDrawToolSelected": "Izberite vsaj eno orodje za risanje."

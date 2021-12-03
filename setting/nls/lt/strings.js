@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Laisvai piešiamas poligonas",
     "selectBySpatQuery": "Pasirinkti pagal elementą",
-    "selectByAttQuery": "Pasirinkti pagal elementą ir susijusius elementus",
+    "selectByAttQuery": "Pasirinkti pagal elementą ir bendras atributų reikšmes",
     "selectByQuery": "Pasirinkti pagal užklausą",
     "toolNotSelected": "Pasirinkite pasirinkimo būdą",
     "noDrawToolSelected": "Pasirinkite bent vieną piešimo įrankį"

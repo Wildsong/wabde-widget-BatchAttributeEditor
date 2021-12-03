@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "手绘面",
     "selectBySpatQuery": "根据要素选择",
-    "selectByAttQuery": "根据要素和相关要素选择",
+    "selectByAttQuery": "按要素和共享属性值选择",
     "selectByQuery": "根据查询选择",
     "toolNotSelected": "请选择一种选择方法",
     "noDrawToolSelected": "请至少选择一个绘图工具"

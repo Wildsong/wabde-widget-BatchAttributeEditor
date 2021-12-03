@@ -1,9 +1,9 @@
 define({
   "_widgetLabel": "Dávkový editor atributů",
-  "widgetIntroSelectByArea": "Pomocí jednoho z níže uvedených nástrojů vytvořte vybranou sadu prvků, které chcete aktualizovat.  Pokud je řádek <font class='maxRecordInIntro'>zvýrazněný</font>, byl překročen maximální počet záznamů.",
-  "widgetIntroSelectByFeature": "Pomocí níže uvedeného nástroje vyberte prvek z vrstvy <font class='layerInIntro'>${0}</font>.  Tento prvek se použije k výběru a aktualizování všech protínajících prvků.  Pokud je řádek <font class='maxRecordInIntro'>zvýrazněný</font>, byl překročen maximální počet záznamů.",
-  "widgetIntroSelectByFeatureQuery": "Pomocí níže uvedeného nástroje vyberte prvek z vrstvy <font class='layerInIntro'>${0}</font>.  Atribut <font class='layerInIntro'>${1}</font> tohoto prvku se použije k dotázání níže uvedených vrstev a aktualizaci výsledných prvků.  Pokud je řádek <font class='maxRecordInIntro'>zvýrazněný</font>, byl překročen maximální počet záznamů.",
-  "widgetIntroSelectByQuery": "Zadejte hodnotu, podle které chcete vytvořit sadu výběru.  Pokud je řádek <font class='maxRecordInIntro'>zvýrazněný</font>, byl překročen maximální počet záznamů.",
+  "widgetIntroSelectByArea": "Use one of the tools below to create a selected set of features to update.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeature": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> layer.  This feature will be used select and update all intersecting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeatureQuery": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> .  This feature's <font class='layerInIntro'>${1}</font> attribute will be used to query the layers below and update the resulting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByQuery": "Enter a value to create a selection set.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
   "layerTable": {
     "colLabel": "Jméno vrstvy",
     "numSelected": "#",
@@ -17,9 +17,10 @@ define({
   "featuresUpdated": "Aktualizované prvky: ${0} / ${1}",
   "featuresSelected": "Počet vybraných prvků: ${0}",
   "featuresSkipped": "Vynecháno",
+  "featuresNoPermision": "Počet vybraných prvků: ${0}, ale žádné oprávnění k úpravám.",
   "search": "Hledat",
   "queryInput": "Zadejte hodnotu pro dotázání",
-  "noFilterTip": "Pokud nedefinujete výraz filtru, tato dotazovací úloha zobrazí všechny prvky v zadaném zdroji dat.",
+  "noFilterTip": "Without filter expression defined, this query task will list all features in the specified data source.",
   "setFilterTip": "Nastavte filtr správně.",
   "filterPopup": "Filtr vrstvy",
   "filterAppend": "Pokud filtr ve webové mapě pro tuto vrstvu již existuje",
@@ -47,7 +48,7 @@ define({
     "startToolTip": "Nakreslete tvar, který chcete použít k výběru prvků"
   },
   "errors": {
-    "layerNotFound": "Vrstva ${0} s ID ${1} nebyla v mapě nalezena. Mapa se možná od prvotní konfigurace změnila.",
+    "layerNotFound": "Layer ${0} with ID ${1} was not found in the map, the map may have changed since the widgets configuration",
     "queryNullID": "Prvek z ${0} vrátil neplatné ID",
     "noSelectedLayers": "Nebyly zvoleny žádné vrstvy se záznamy k aktualizování",
     "inputValueError": "Formulář obsahuje neplatnou hodnotu",

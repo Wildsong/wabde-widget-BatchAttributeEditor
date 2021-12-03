@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "フリーハンド ポリゴン",
     "selectBySpatQuery": "フィーチャによる選択",
-    "selectByAttQuery": "フィーチャおよび関連フィーチャによる選択",
+    "selectByAttQuery": "フィーチャおよび共有属性値による選択",
     "selectByQuery": "クエリによる選択",
     "toolNotSelected": "選択方法を選択してください。",
     "noDrawToolSelected": "描画ツールを少なくとも 1 つ選択してください"

@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Prostoručni poligon",
     "selectBySpatQuery": "Odaberi prema geoobjektu",
-    "selectByAttQuery": "Odaberi prema geoobjektu i povezanim geoobjektima",
+    "selectByAttQuery": "Odabir prema vrijednostima geoobjekta i dijeljenih atributa",
     "selectByQuery": "Odaberi prema upitu",
     "toolNotSelected": "Odaberite metodu za odabir",
     "noDrawToolSelected": "Odaberite barem jedan alat za crtanje"

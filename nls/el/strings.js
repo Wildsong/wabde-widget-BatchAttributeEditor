@@ -1,9 +1,9 @@
 define({
   "_widgetLabel": "Εργαλείο μαζικής επεξεργασίας περιγραφικών στοιχείων",
-  "widgetIntroSelectByArea": "Χρησιμοποιήστε ένα από τα παρακάτω εργαλεία για να δημιουργήσετε ένα επιλεγμένο σύνολο στοιχείων προς ενημέρωση. Αν <font class='maxRecordInIntro'>επισημαίνεται</font> η γραμμή, τότε έχετε υπερβεί τον ανώτατο αριθμό εγγραφών.",
-  "widgetIntroSelectByFeature": "Χρησιμοποιήστε το παρακάτω εργαλείο για να επιλέξετε ένα στοιχείο από το θεματικό επίπεδο <font class='layerInIntro'>${0}</font>. Το στοιχείο αυτό θα χρησιμοποιηθεί για την επιλογή και την ενημέρωση όλων των τεμνόμενων στοιχείων. Αν <font class='maxRecordInIntro'>επισημαίνεται</font> η γραμμή, τότε έχετε υπερβεί τον ανώτατο αριθμό εγγραφών.",
-  "widgetIntroSelectByFeatureQuery": "Χρησιμοποιήστε το παρακάτω εργαλείο για να επιλέξετε ένα στοιχείο από το <font class='layerInIntro'>${0}</font>. Το γνώρισμα <font class='layerInIntro'>${1}</font> του στοιχείου αυτού θα χρησιμοποιηθεί για την υποβολή ερωτήματος όσον αφορά τα παρακάτω θεματικά επίπεδα και την ενημέρωση των στοιχείων που θα προκύψουν. Αν <font class='maxRecordInIntro'>επισημαίνεται</font> η γραμμή, τότε έχετε υπερβεί τον ανώτατο αριθμό εγγραφών.",
-  "widgetIntroSelectByQuery": "Καταχωρίστε μια τιμή για να δημιουργηθεί ένα σύνολο επιλογών. Αν <font class='maxRecordInIntro'>επισημαίνεται</font> η γραμμή, τότε έχετε υπερβεί τον ανώτατο αριθμό εγγραφών.",
+  "widgetIntroSelectByArea": "Use one of the tools below to create a selected set of features to update.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeature": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> layer.  This feature will be used select and update all intersecting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeatureQuery": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> .  This feature's <font class='layerInIntro'>${1}</font> attribute will be used to query the layers below and update the resulting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByQuery": "Enter a value to create a selection set.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
   "layerTable": {
     "colLabel": "Όνομα επιπέδου",
     "numSelected": "#",
@@ -17,9 +17,10 @@ define({
   "featuresUpdated": "Ενημερώθηκαν ${0} / ${1} στοιχεία",
   "featuresSelected": "Επιλέχθηκαν ${0} στοιχεία",
   "featuresSkipped": "Παρακάμφθηκαν",
+  "featuresNoPermision": "${0} επιλεγμένο (α) στοιχείο (α), αλλά δεν επιτρέπεται η επεξεργασία.",
   "search": "Αναζήτηση",
   "queryInput": "Εισαγάγετε τιμή για δημιουργία ερωτήματος",
-  "noFilterTip": "Αν δεν καθοριστεί έκφραση για το φίλτρο, αυτό το ερώτημα θα συμπεριλάβει σε λίστα όλα τα στοιχεία από την καθορισμένη προέλευση δεδομένων.",
+  "noFilterTip": "Without filter expression defined, this query task will list all features in the specified data source.",
   "setFilterTip": "Ορίστε σωστά το φίλτρο.",
   "filterPopup": "Φιλτράρισμα θεματικού επιπέδου",
   "filterAppend": "Αν ήδη υπάρχει φίλτρο στον web χάρτη για αυτό το θεματικό επίπεδο",
@@ -47,7 +48,7 @@ define({
     "startToolTip": "Σχεδιάστε ένα σχήμα για να επιλέξετε στοιχεία"
   },
   "errors": {
-    "layerNotFound": "Το θεματικό επίπεδο ${0} με ID ${1} δεν βρέθηκε στον χάρτη, ο χάρτης μπορεί να έχει αλλάξει από τότε που διαμορφώθηκαν τα widget",
+    "layerNotFound": "Layer ${0} with ID ${1} was not found in the map, the map may have changed since the widgets configuration",
     "queryNullID": "Το στοιχείο από το ${0} επέστρεψε μη έγκυρο ID",
     "noSelectedLayers": "Δεν έχουν επιλεγεί θεματικά επίπεδα με εγγραφές για ενημέρωση",
     "inputValueError": "Μη έγκυρη τιμή στη φόρμα",

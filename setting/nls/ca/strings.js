@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Polígon a mà alçada",
     "selectBySpatQuery": "Seleccioneu per entitat",
-    "selectByAttQuery": "Seleccioneu per entitat i per entitats relacionades",
+    "selectByAttQuery": "Selecciona per entitat i valors d'atributs compartits",
     "selectByQuery": "Seleccioneu per consulta",
     "toolNotSelected": "Trieu un mètode de selecció",
     "noDrawToolSelected": "Trieu una eina de dibuix com a mínim"

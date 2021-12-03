@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "פוליגון בשרטוט חופשי",
     "selectBySpatQuery": "בחר לפי ישות",
-    "selectByAttQuery": "בחר לפי ישות וישויות המקושרות אליה",
+    "selectByAttQuery": "בחר לפי ישות וערכי מאפיינים משותפים",
     "selectByQuery": "בחירה לפי שאילתא",
     "toolNotSelected": "בחר שיטת בחירה",
     "noDrawToolSelected": "בחר כלי שרטוט אחד לפחות"

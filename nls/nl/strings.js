@@ -1,9 +1,9 @@
 define({
   "_widgetLabel": "Batch Attribute Editor",
-  "widgetIntroSelectByArea": "Gebruik een van de tools hieronder om een selectie van objecten te maken om bij te werken. Als de rij is <font class='maxRecordInIntro'>gemarkeerd</font>, dan is het maximum aantal gegevens overschreden.",
-  "widgetIntroSelectByFeature": "Gebruik de tool hieronder om een object te kiezen uit de <font class='layerInIntro'>${0}</font>-laag. Dit object wordt gebruikt om alle overeenkomende objecten te selecteren en bij te werken. Als de rij is <font class='maxRecordInIntro'>gemarkeerd</font>, dan is het maximum aantal gegevens overschreden.",
-  "widgetIntroSelectByFeatureQuery": "Gebruik de tool hieronder om een object te kiezen uit <font class='layerInIntro'>${0}</font>. Het <font class='layerInIntro'>${1}</font>-attribuut van dit object wordt gebruikt om de lagen eronder te queryen en de resulterende objecten te updaten. Als de rij is <font class='maxRecordInIntro'>gemarkeerd</font>, dan is het maximum aantal gegevens overschreden.",
-  "widgetIntroSelectByQuery": "Voer een waarde in om een geselecteerde set te creëren. Als de rij is <font class='maxRecordInIntro'>gemarkeerd</font>, dan is het maximum aantal gegevens overschreden.",
+  "widgetIntroSelectByArea": "Use one of the tools below to create a selected set of features to update.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeature": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> layer.  This feature will be used select and update all intersecting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeatureQuery": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> .  This feature's <font class='layerInIntro'>${1}</font> attribute will be used to query the layers below and update the resulting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByQuery": "Enter a value to create a selection set.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
   "layerTable": {
     "colLabel": "Laagnaam",
     "numSelected": "#",
@@ -17,9 +17,10 @@ define({
   "featuresUpdated": "${0} / ${1} object(en) geactualiseerd",
   "featuresSelected": "${0} object(en) geselecteerd",
   "featuresSkipped": "Omgeleid",
+  "featuresNoPermision": "${0} object(en) geselecteerd, maar geen toestemming om te bewerken.",
   "search": "Zoeken",
   "queryInput": "Voer querywaarde in",
-  "noFilterTip": "Zonder filterexpressie zal deze querytaak alle functies in de opgegeven gegevensbron weergeven.",
+  "noFilterTip": "Without filter expression defined, this query task will list all features in the specified data source.",
   "setFilterTip": "Stel het filter correct in.",
   "filterPopup": "Filter laag",
   "filterAppend": "Als de filter in de webmap bestaat voor deze kaartlaag",
@@ -47,7 +48,7 @@ define({
     "startToolTip": "Teken een vorm om objecten te selecteren"
   },
   "errors": {
-    "layerNotFound": "Laag ${0} met ID ${1} werd niet gevonden in de kaart, de kaart is mogelijk gewijzigd sinds de configuratie van de widget",
+    "layerNotFound": "Layer ${0} with ID ${1} was not found in the map, the map may have changed since the widgets configuration",
     "queryNullID": "Het object van ${0} gaf een ongeldige ID",
     "noSelectedLayers": "Geen geselecteerde lagen met te actualiseren records",
     "inputValueError": "Ongeldige waarde in de vorm",

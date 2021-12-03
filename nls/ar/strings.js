@@ -1,9 +1,9 @@
 define({
   "_widgetLabel": "محرر بيانات جدولية دَفعِي",
-  "widgetIntroSelectByArea": "استخدم إحدى الأدوات المدرجة أدناه لإنشاء مجموعة محددة من المعالم لتحديثها. في حال <font class='maxRecordInIntro'>تمييز</font> الصف، فسيتم تجاوز الحد الأقصى من عدد السجلات.",
-  "widgetIntroSelectByFeature": "استخدم الأداة أدناه لتحديد معلم من طبقة <font class='layerInIntro'>${0}</font>. سيُستخدم هذا المعلم في تحديد المعالم المتقاطعة وتحديثها. في حال <font class='maxRecordInIntro'>تمييز</font> الصف، فسيتم تجاوز الحد الأقصى من عدد السجلات.",
-  "widgetIntroSelectByFeatureQuery": "استخدم الأداة أدناه لتحديد معلم من <font class='layerInIntro'>${0}</font>. ستُستخدم سمة <font class='layerInIntro'>${1}</font> لهذا المعلم للاستعلام عن الطبقات أدناه وتحديث المعالم الناتجة. في حال <font class='maxRecordInIntro'>تمييز</font> الصف، فسيتم تجاوز الحد الأقصى من عدد السجلات.",
-  "widgetIntroSelectByQuery": "أدخل قيمة لإنشاء مجموعة تحديد. في حال <font class='maxRecordInIntro'>تمييز</font> الصف، فسيتم تجاوز الحد الأقصى من عدد السجلات.",
+  "widgetIntroSelectByArea": "Use one of the tools below to create a selected set of features to update.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeature": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> layer.  This feature will be used select and update all intersecting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeatureQuery": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> .  This feature's <font class='layerInIntro'>${1}</font> attribute will be used to query the layers below and update the resulting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByQuery": "Enter a value to create a selection set.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
   "layerTable": {
     "colLabel": "اسم الطبقة",
     "numSelected": "#",
@@ -17,9 +17,10 @@ define({
   "featuresUpdated": "تم تحديث ${0} / ${1} معلم",
   "featuresSelected": "تم تحديد ${0} معلم",
   "featuresSkipped": "تجاوز",
+  "featuresNoPermision": "تم تحديد ${0} من المعالم لكن لا يوجد إذن لتحريره.",
   "search": "بحث",
   "queryInput": "أدخل قيمة للاستعلام عنها",
-  "noFilterTip": "بدون تعريف تعبير عوامل التصفية، ستقوم هذه المهمة بإدراج جميع المعالم في مصدر البيانات المًحدد.",
+  "noFilterTip": "Without filter expression defined, this query task will list all features in the specified data source.",
   "setFilterTip": "يرجى تعيين عامل التصفية بشكل صحيح.",
   "filterPopup": "طبقة التصفية",
   "filterAppend": "إذا كان هناك عامل تصفية موجود بالفعل في خريطة الويب لهذه الطبقة",
@@ -47,7 +48,7 @@ define({
     "startToolTip": "ارسم شكلاً لتحديد المعالم"
   },
   "errors": {
-    "layerNotFound": "لم يتم العثور على طبقة ${0} ذات المُعرّف ${1} في الخريطة، وقد يتم تغيير الخريطة بسبب تكوين عناصر واجهة الاستخدام",
+    "layerNotFound": "Layer ${0} with ID ${1} was not found in the map, the map may have changed since the widgets configuration",
     "queryNullID": "قم معلم ${0} بإرجاع مُعرّف غير صحيح.",
     "noSelectedLayers": "لا توجد طبقات محددة ذات سجلات لتحديدها",
     "inputValueError": "قيمة غير صحيحة في النموذج",

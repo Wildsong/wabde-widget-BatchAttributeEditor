@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "مضلع مسوم بخط يدوي حر",
     "selectBySpatQuery": "تحديد بواسطة المعلم",
-    "selectByAttQuery": "تحديد بواسطة المعلم & المعالم المرتبطة",
+    "selectByAttQuery": "تحديد حسب المعلم وقيم البيانات الجدولية المشتركة",
     "selectByQuery": "تحديد بواسطة الاستعلام",
     "toolNotSelected": "يرجى تحديد طريقة تحديد",
     "noDrawToolSelected": "يرجى اختيار أداة رسم واحدة على الأقل"

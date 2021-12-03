@@ -1,9 +1,9 @@
 define({
   "_widgetLabel": "属性一括編集",
-  "widgetIntroSelectByArea": "以下のツールのいずれかを使用して、更新するためのフィーチャの選択セットを作成します。行が<font class='maxRecordInIntro'>ハイライト表示された</font>場合、レコードの最大数を超えています。",
-  "widgetIntroSelectByFeature": "以下のツールを使用して、<font class='layerInIntro'>${0}</font> レイヤーからフィーチャを選択します。このフィーチャは、交差しているすべてのフィーチャの選択および更新に使用されます。行が<font class='maxRecordInIntro'>ハイライト表示された</font>場合、レコードの最大数を超えています。",
-  "widgetIntroSelectByFeatureQuery": "以下のツールを使用して、<font class='layerInIntro'>${0}</font> からフィーチャを選択します。このフィーチャの <font class='layerInIntro'>${1}</font> 属性は、以下のレイヤーの検索、および検索で得られたフィーチャの更新に使用されます。行が<font class='maxRecordInIntro'>ハイライト表示された</font>場合、レコードの最大数を超えています。",
-  "widgetIntroSelectByQuery": "値を入力して選択セットを作成します。行が<font class='maxRecordInIntro'>ハイライト表示された</font>場合、レコードの最大数を超えています。",
+  "widgetIntroSelectByArea": "Use one of the tools below to create a selected set of features to update.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeature": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> layer.  This feature will be used select and update all intersecting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeatureQuery": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> .  This feature's <font class='layerInIntro'>${1}</font> attribute will be used to query the layers below and update the resulting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByQuery": "Enter a value to create a selection set.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
   "layerTable": {
     "colLabel": "レイヤー名",
     "numSelected": "#",
@@ -17,9 +17,10 @@ define({
   "featuresUpdated": "${0}/${1} 個のフィーチャが更新されました",
   "featuresSelected": "${0} 個のフィーチャが選択されました",
   "featuresSkipped": "バイパスされました",
+  "featuresNoPermision": "${0} 個のフィーチャが選択されましたが、編集する権限がありません。",
   "search": "検索",
   "queryInput": "検索する値の入力",
-  "noFilterTip": "フィルターの条件式が定義されていない場合、このクエリ タスクは、指定したデータ ソース内のすべてのフィーチャをリストします。",
+  "noFilterTip": "Without filter expression defined, this query task will list all features in the specified data source.",
   "setFilterTip": "フィルターを正しく設定してください。",
   "filterPopup": "レイヤーのフィルター",
   "filterAppend": "フィルターがこのレイヤーの Web マップにすでに存在する場合",
@@ -47,7 +48,7 @@ define({
     "startToolTip": "図形を描画してフィーチャを選択します"
   },
   "errors": {
-    "layerNotFound": "ID ${1} を持つレイヤー ${0} がマップに見つかりませんでした。Web マップが、ウィジェットの構成後に変更された可能性があります。",
+    "layerNotFound": "Layer ${0} with ID ${1} was not found in the map, the map may have changed since the widgets configuration",
     "queryNullID": "${0} のフィーチャが無効な ID を返しました",
     "noSelectedLayers": "更新するレコードを持つレイヤーが選択されていません",
     "inputValueError": "フォーム内の値が無効です。",

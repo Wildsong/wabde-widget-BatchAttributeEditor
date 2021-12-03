@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Vabakäe polügoon",
     "selectBySpatQuery": "Vali objekti järgi",
-    "selectByAttQuery": "Vali objekti ja seotud objektide järgi",
+    "selectByAttQuery": "Vali objekti ja jagatud atribuudiväärtuste järgi",
     "selectByQuery": "Vali päringu kaudu",
     "toolNotSelected": "Valige sobilik meetod",
     "noDrawToolSelected": "Valige vähemalt üks joonistustööriist"

@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Đa giác vẽ tay",
     "selectBySpatQuery": "Chọn theo Đối tượng",
-    "selectByAttQuery": "Chọn theo Đối tượng và Đối tượng có Liên quan",
+    "selectByAttQuery": "Chọn theo Đối tượng & Các giá trị Thuộc tính được Chia sẻ",
     "selectByQuery": "Chọn theo Truy vấn",
     "toolNotSelected": "Vui lòng chọn một phương thức lựa chọn",
     "noDrawToolSelected": "Vui lòng chọn ít nhất một công cụ vẽ"

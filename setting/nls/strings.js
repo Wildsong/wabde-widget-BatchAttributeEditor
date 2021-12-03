@@ -16,7 +16,7 @@ define({
       },
       freehandPolygon: "Freehand Polygon",
       selectBySpatQuery: "Select by Feature",
-      selectByAttQuery: "Select by Feature & Related Features",
+      selectByAttQuery: "Select by Feature & Shared Attribute Values",
       selectByQuery: "Select by Query",
       toolNotSelected: "Please select a selection method",
       noDrawToolSelected: "Please choose atleast one drawing tool"

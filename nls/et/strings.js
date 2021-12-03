@@ -1,9 +1,9 @@
 define({
   "_widgetLabel": "Lausaline atribuutide redaktor",
-  "widgetIntroSelectByArea": "Kasutage mõnda allolevatest tööriistadest, et luua valitud uuendatavaid objekte. Kui rida on <font class='maxRecordInIntro'>esile tõstetud</font>, on maksimaalne kirjete arv ületatud.",
-  "widgetIntroSelectByFeature": "Kasutage allolevat tööriista, et valida objekti kihist <font class='layerInIntro'>${0}</font>. Seda objekti kasutatakse kõikide lõikuvate objektide valimiseks ja värskendamiseks. Kui rida on <font class='maxRecordInIntro'>esile tõstetud</font>, on maksimaalne kirjete arv ületatud.",
-  "widgetIntroSelectByFeatureQuery": "Kasutage allolevat tööriista, et valida objekti kihist <font class='layerInIntro'>${0}</font>. Objekti <font class='layerInIntro'>${1}</font> atribuuti kasutatakse allolevate kihtide otsinguks ja sellest tulenevate objektide värskendamiseks. Kui rida on <font class='maxRecordInIntro'>esile tõstetud</font>, on maksimaalne kirjete arv ületatud.",
-  "widgetIntroSelectByQuery": "Sisestage väärtus valikute loomiseks. Kui rida on <font class='maxRecordInIntro'>esile tõstetud</font>, on maksimaalne kirjete arv ületatud.",
+  "widgetIntroSelectByArea": "Use one of the tools below to create a selected set of features to update.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeature": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> layer.  This feature will be used select and update all intersecting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeatureQuery": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> .  This feature's <font class='layerInIntro'>${1}</font> attribute will be used to query the layers below and update the resulting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByQuery": "Enter a value to create a selection set.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
   "layerTable": {
     "colLabel": "Kihi nimi",
     "numSelected": "#",
@@ -17,9 +17,10 @@ define({
   "featuresUpdated": "${0} / ${1} objekt(i) värskendatud",
   "featuresSelected": "${0} objekt(i) valitud",
   "featuresSkipped": "Eiratakse",
+  "featuresNoPermision": "${0} funktsioon(i) on valitud, kuid muutmisõigus puudub.",
   "search": "Otsi",
   "queryInput": "Sisestage päringu jaoks väärtus",
-  "noFilterTip": "Määratlemata filtriavaldiseta loendab see päringuülesanne kõik määratud andmeallika funktsioonid.",
+  "noFilterTip": "Without filter expression defined, this query task will list all features in the specified data source.",
   "setFilterTip": "Määrake filter õigesti.",
   "filterPopup": "Filtreeri kiht",
   "filterAppend": "Kui filter on selle kihi veebikaardil juba olemas",
@@ -47,7 +48,7 @@ define({
     "startToolTip": "Joonistage kujund objektide valimiseks"
   },
   "errors": {
-    "layerNotFound": "Kihti ${0} (ID ${1}) ei leitud kaardilt. Võimalik, et kaarti on pärast vidina konfigureerimist muudetud",
+    "layerNotFound": "Layer ${0} with ID ${1} was not found in the map, the map may have changed since the widgets configuration",
     "queryNullID": "Üksuse ${0} objekt tagastas kehtetu ID",
     "noSelectedLayers": "Värskendatavate kirjetega kihte pole valitud",
     "inputValueError": "Kehtetu väärtus vormis",

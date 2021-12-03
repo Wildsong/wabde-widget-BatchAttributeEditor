@@ -1,9 +1,9 @@
 define({
   "_widgetLabel": "일괄처리 속성 편집기",
-  "widgetIntroSelectByArea": "아래 도구 중 하나를 사용하여 업데이트할 선택 피처를 생성합니다.  행이 <font class='maxRecordInIntro'>강조된</font> 경우 최대 레코드 수를 초과한 것입니다.",
-  "widgetIntroSelectByFeature": "아래의 도구를 사용하여 <font class='layerInIntro'>${0}</font> 레이어에서 피처를 선택합니다.  이 피처는 모든 교차 피처를 선택하고 업데이트하는 데 사용됩니다.  행이 <font class='maxRecordInIntro'>강조된</font> 경우 최대 레코드 수를 초과한 것입니다.",
-  "widgetIntroSelectByFeatureQuery": "아래의 도구를 사용하여 <font class='layerInIntro'>${0}</font>에서 피처를 선택합니다.  이 피처의 <font class='layerInIntro'>${1}</font> 속성은 아래의 레이어를 쿼리하고 결과 피처를 업데이트하는 데 사용됩니다.  행이 <font class='maxRecordInIntro'>강조된</font> 경우 최대 레코드 수를 초과한 것입니다.",
-  "widgetIntroSelectByQuery": "선택 집합을 생성하려면 값을 입력합니다.  행이 <font class='maxRecordInIntro'>강조된</font> 경우 최대 레코드 수를 초과한 것입니다.",
+  "widgetIntroSelectByArea": "Use one of the tools below to create a selected set of features to update.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeature": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> layer.  This feature will be used select and update all intersecting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeatureQuery": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> .  This feature's <font class='layerInIntro'>${1}</font> attribute will be used to query the layers below and update the resulting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByQuery": "Enter a value to create a selection set.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
   "layerTable": {
     "colLabel": "레이어 이름",
     "numSelected": "#",
@@ -17,9 +17,10 @@ define({
   "featuresUpdated": "피처 ${0}/${1}개 업데이트함",
   "featuresSelected": "피처 ${0}개 선택함",
   "featuresSkipped": "무시함",
+  "featuresNoPermision": "피처 ${0}개가 선택되었지만 편집할 수 있는 권한이 없습니다.",
   "search": "검색",
   "queryInput": "쿼리할 값 입력",
-  "noFilterTip": "필터 식이 정의되지 않으면 이 쿼리 작업은 지정된 데이터 원본의 모든 피처를 나열합니다.",
+  "noFilterTip": "Without filter expression defined, this query task will list all features in the specified data source.",
   "setFilterTip": "필터를 올바르게 설정하세요.",
   "filterPopup": "레이어 필터",
   "filterAppend": "웹 맵에 이 레이어에 대한 필터가 이미 있는 경우",
@@ -47,7 +48,7 @@ define({
     "startToolTip": "모양을 그려 피처를 선택합니다."
   },
   "errors": {
-    "layerNotFound": "ID가 ${1}인 ${0} 레이어를 이 맵에서 찾을 수 없습니다. 위젯 구성 후 맵이 변경된 것 같습니다.",
+    "layerNotFound": "Layer ${0} with ID ${1} was not found in the map, the map may have changed since the widgets configuration",
     "queryNullID": "${0}의 피처가 잘못된 ID를 반환했습니다.",
     "noSelectedLayers": "업데이트할 레코드와 함께 선택된 레이어가 없습니다.",
     "inputValueError": "양식의 값이 잘못되었습니다.",

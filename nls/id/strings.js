@@ -1,9 +1,9 @@
 define({
   "_widgetLabel": "Editor Atribut Kelompok",
-  "widgetIntroSelectByArea": "Gunakan salah satu alat di bawah untuk membuat set fitur terpilih untuk diperbarui.  Jika barisnya <font class='maxRecordInIntro'>disorot</font>, maka jumlah maksimal catatan telah terlampaui.",
-  "widgetIntroSelectByFeature": "Gunakan alat di bawah untuk memilih fitur dari layer <font class='layerInIntro'>${0}</font>.  Fitur ini akan digunakan, pilih dan perbarui semua fitur yang saling berpotongan.  Jika barisnya <font class='maxRecordInIntro'>disorot</font>, maka jumlah maksimal catatan telah terlampaui.",
-  "widgetIntroSelectByFeatureQuery": "Gunakan alat di bawah untuk memilih fitur dari <font class='layerInIntro'>${0}</font>.  Atribut <font class='layerInIntro'>${1}</font> fitur ini akan digunakan untuk kueri layer di bawah dan memperbarui fitur yang dihasilkan.  Jika barisnya <font class='maxRecordInIntro'>disorot</font>, maka jumlah maksimal catatan telah terlampaui.",
-  "widgetIntroSelectByQuery": "Masukkan nilai untuk membuat set pilihan.  Jika barisnya <font class='maxRecordInIntro'>disorot</font>, maka jumlah maksimal catatan telah terlampaui.",
+  "widgetIntroSelectByArea": "Use one of the tools below to create a selected set of features to update.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeature": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> layer.  This feature will be used select and update all intersecting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeatureQuery": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> .  This feature's <font class='layerInIntro'>${1}</font> attribute will be used to query the layers below and update the resulting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByQuery": "Enter a value to create a selection set.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
   "layerTable": {
     "colLabel": "Nama Layer",
     "numSelected": "#",
@@ -17,9 +17,10 @@ define({
   "featuresUpdated": "${0} / ${1} fitur diperbarui",
   "featuresSelected": "${0} fitur dipilih",
   "featuresSkipped": "Dilewati",
+  "featuresNoPermision": "${0} fitur dipilih tetapi tidak ada izin untuk mengedit.",
   "search": "Cari",
   "queryInput": "Masukkan nilai pada query",
-  "noFilterTip": "Tanpa menetapkan ekspresi filter, tugas query ini akan mencantumkan semua fitur dalam sumber data yang sudah ditentukan.",
+  "noFilterTip": "Without filter expression defined, this query task will list all features in the specified data source.",
   "setFilterTip": "Tetapkan filter dengan benar.",
   "filterPopup": "Layer Filter",
   "filterAppend": "Jika filter sudah ada di peta web untuk layer ini",
@@ -47,7 +48,7 @@ define({
     "startToolTip": "Gambar sebuah bentuk untuk memilih fitur"
   },
   "errors": {
-    "layerNotFound": "Layer ${0} dengan ID ${1} tidak ditemukan dalam peta, peta mungkin telah berubah sejak konfigurasi widget",
+    "layerNotFound": "Layer ${0} with ID ${1} was not found in the map, the map may have changed since the widgets configuration",
     "queryNullID": "Fitur dari ${0} menghasilkan ID yang tidak valid",
     "noSelectedLayers": "Tidak ada layer yang mengandung catatan dipilih untuk diperbarui",
     "inputValueError": "Nilai dalam form tidak valid",

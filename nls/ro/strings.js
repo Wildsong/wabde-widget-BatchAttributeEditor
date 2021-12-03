@@ -1,9 +1,9 @@
 define({
   "_widgetLabel": "Editor atribute în masă",
-  "widgetIntroSelectByArea": "Utilizați unul dintre instrumentele de mai jos pentru a crea un set selectat de obiecte spațiale de actualizat. Dacă rândul este <font class='maxRecordInIntro'>evidențiat</font>, a fost depășit numărul maxim de înregistrări.",
-  "widgetIntroSelectByFeature": "Utilizați instrumentul de mai jos pentru a selecta un obiect spațial din stratul tematic <font class='layerInIntro'>${0}</font>. Acest obiect spațial va fi utilizat pentru a selecta și actualiza toate obiectele spațiale cu care se intersectează. Dacă rândul este <font class='maxRecordInIntro'>evidențiat</font>, a fost depășit numărul maxim de înregistrări.",
-  "widgetIntroSelectByFeatureQuery": "Utilizați instrumentul de mai jos pentru a selecta un obiect spațial din <font class='layerInIntro'>${0}</font>. Atributul <font class='layerInIntro'>${1}</font> al acestui obiect spațial va fi utilizat pentru a interoga straturile tematice de mai jos și pentru a actualiza obiectele spațiale care rezultă. Dacă rândul este <font class='maxRecordInIntro'>evidențiat</font>, a fost depășit numărul maxim de înregistrări.",
-  "widgetIntroSelectByQuery": "Introduceți o valoare pentru a crea un set de selecție. Dacă rândul este <font class='maxRecordInIntro'>evidențiat</font>, a fost depășit numărul maxim de înregistrări.",
+  "widgetIntroSelectByArea": "Use one of the tools below to create a selected set of features to update.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeature": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> layer.  This feature will be used select and update all intersecting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeatureQuery": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> .  This feature's <font class='layerInIntro'>${1}</font> attribute will be used to query the layers below and update the resulting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByQuery": "Enter a value to create a selection set.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
   "layerTable": {
     "colLabel": "Nume strat tematic",
     "numSelected": "#",
@@ -17,9 +17,10 @@ define({
   "featuresUpdated": "${0} / ${1} obiecte spaţiale actualizate",
   "featuresSelected": "${0} obiecte spaţiale selectate",
   "featuresSkipped": "Ignorat",
+  "featuresNoPermision": "${0} obiect(e) spațial(e) selectat(e), dar fără permisiune de editare.",
   "search": "Căutare",
   "queryInput": "Introduceţi o valoare care va fi interogată",
-  "noFilterTip": "Fără a avea expresia de filtrare definită, această operaţie de interogare va lista toate obiectele spaţiale din sursa de date specificată.",
+  "noFilterTip": "Without filter expression defined, this query task will list all features in the specified data source.",
   "setFilterTip": "Setaţi corect filtrul.",
   "filterPopup": "Filtrare strat tematic",
   "filterAppend": "Dacă există deja un filtru în harta web pentru acest strat tematic",
@@ -47,7 +48,7 @@ define({
     "startToolTip": "Trasaţi o formă pentru a selecta obiectele spaţiale"
   },
   "errors": {
-    "layerNotFound": "Stratul tematic ${0} cu ID-ul ${1} nu a fost găsit pe hartă, este posibil ca harta să se fi schimbat de la configurarea widgeturilor",
+    "layerNotFound": "Layer ${0} with ID ${1} was not found in the map, the map may have changed since the widgets configuration",
     "queryNullID": "Stratul tematic din ${0} a returnat un ID nevalid",
     "noSelectedLayers": "Niciun strat tematic selectat cu înregistrări de actualizat",
     "inputValueError": "Valoare nevalidă în formular",

@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Veelhoek in vrije stijl",
     "selectBySpatQuery": "Selecteren op object",
-    "selectByAttQuery": "Selecteren op object & gerelateerde objecten",
+    "selectByAttQuery": "Selecteren op basis van feature en gedeelde attribuutwaarden",
     "selectByQuery": "Selecteren op query",
     "toolNotSelected": "Selecteer een selectiemethode",
     "noDrawToolSelected": "Kies ten minste één tekentool"

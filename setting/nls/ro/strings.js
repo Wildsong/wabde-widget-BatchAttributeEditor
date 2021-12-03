@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Poligon trasat manual",
     "selectBySpatQuery": "Selectare după obiect spaţial",
-    "selectByAttQuery": "Selectare după obiect spaţial şi Obiecte spaţiale corelate",
+    "selectByAttQuery": "Selectați în funcție de valorile obiectului spațial și ale atributului comun",
     "selectByQuery": "Selectare după interogare",
     "toolNotSelected": "Alegeţi o metodă de selecţie",
     "noDrawToolSelected": "Adăugați cel puțin un instrument de trasare"

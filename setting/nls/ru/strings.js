@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Полигон произвольной формы",
     "selectBySpatQuery": "Выбрать по объекту",
-    "selectByAttQuery": "Выбрать по объекту & Связанные объекты",
+    "selectByAttQuery": "Выбор по объекту и опубликованным значениям атрибута",
     "selectByQuery": "Выбрать по запросу",
     "toolNotSelected": "Выберите метод выборки",
     "noDrawToolSelected": "Выберите один из инструментов рисования"

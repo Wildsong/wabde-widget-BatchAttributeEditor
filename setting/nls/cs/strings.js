@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Polygon od ruky",
     "selectBySpatQuery": "Výběr podle prvku",
-    "selectByAttQuery": "Výběr podle prvku a příslušejících prvků",
+    "selectByAttQuery": "Vybrat podle prvku a sdílených hodnot atributů",
     "selectByQuery": "Výběr podle dotazu",
     "toolNotSelected": "Vyberte způsob výběru.",
     "noDrawToolSelected": "Zvolte alespoň jeden nástroj kreslení"

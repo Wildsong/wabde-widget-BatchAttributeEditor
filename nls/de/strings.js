@@ -1,9 +1,9 @@
 define({
   "_widgetLabel": "Batch-Attribut-Editor",
-  "widgetIntroSelectByArea": "Verwenden Sie eines der nachfolgenden Werkzeuge, um eine ausgewählte Reihe von Features zu erstellen, die aktualisiert werden sollen. Wenn die Zeile <font class='maxRecordInIntro'>hervorgehoben</font> ist, wurde die maximale Anzahl von Datensätzen überschritten.",
-  "widgetIntroSelectByFeature": "Verwenden Sie das nachfolgende Werkzeug, um ein Feature aus dem <font class='layerInIntro'>${0}</font>-Layer auszuwählen.  Dieses Feature dient zum Auswählen und Aktualisieren aller überschneidenden Features.  Wenn die Zeile <font class='maxRecordInIntro'>hervorgehoben</font> ist, wurde die maximale Anzahl von Datensätzen überschritten.",
-  "widgetIntroSelectByFeatureQuery": "Verwenden Sie das nachfolgende Werkzeug, um ein Feature aus <font class='layerInIntro'>${0}</font> auszuwählen.  Das <font class='layerInIntro'>${1}</font>-Attribut dieses Features wird verwendet, um die nachfolgenden Layer abzufragen und die resultierenden Features zu aktualisieren.  Wenn die Zeile <font class='maxRecordInIntro'>hervorgehoben</font> ist, wurde die maximale Anzahl von Datensätzen überschritten.",
-  "widgetIntroSelectByQuery": "Geben Sie einen Wert ein, um einen Auswahlsatz zu erstellen.  Wenn die Zeile <font class='maxRecordInIntro'>hervorgehoben</font> ist, wurde die maximale Anzahl von Datensätzen überschritten.",
+  "widgetIntroSelectByArea": "Use one of the tools below to create a selected set of features to update.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeature": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> layer.  This feature will be used select and update all intersecting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeatureQuery": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> .  This feature's <font class='layerInIntro'>${1}</font> attribute will be used to query the layers below and update the resulting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByQuery": "Enter a value to create a selection set.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
   "layerTable": {
     "colLabel": "Layer-Name",
     "numSelected": "#",
@@ -17,9 +17,10 @@ define({
   "featuresUpdated": "${0} / ${1} Feature(s) wurde(n) aktualisiert",
   "featuresSelected": "${0} Feature(s) wurde(n) ausgewählt",
   "featuresSkipped": "Umgangen",
+  "featuresNoPermision": "${0} Feature(s) wurde(n) ausgewählt, jedoch besteht keine Berechtigung zum Bearbeiten.",
   "search": "Suchen",
   "queryInput": "Abzufragenden Wert eingeben",
-  "noFilterTip": "Dieser Abfrage-Task listet alle Features in der angegebenen Datenquelle ohne definierten Filterausdruck auf.",
+  "noFilterTip": "Without filter expression defined, this query task will list all features in the specified data source.",
   "setFilterTip": "Legen Sie den Filter ordnungsgemäß fest.",
   "filterPopup": "Layer filtern",
   "filterAppend": "Wenn in der Webkarte bereits ein Filter für diesen Layer vorhanden ist",
@@ -47,7 +48,7 @@ define({
     "startToolTip": "Zeichnen Sie eine Form, um Features auszuwählen"
   },
   "errors": {
-    "layerNotFound": "Der Layer ${0} mit der ID ${1} wurde nicht auf der Karte gefunden. Die Karte wurde möglicherweise nach der Widget-Konfiguration geändert",
+    "layerNotFound": "Layer ${0} with ID ${1} was not found in the map, the map may have changed since the widgets configuration",
     "queryNullID": "Das Feature aus ${0} gab eine ungültige ID zurück",
     "noSelectedLayers": "Keine ausgewählten Layer mit zu aktualisierenden Datensätzen",
     "inputValueError": "Ungültiger Wert im Formular",

@@ -1,9 +1,9 @@
 define({
   "_widgetLabel": "Editor de Atributo em Lote",
-  "widgetIntroSelectByArea": "Utilize uma das ferramentas abaixo para criar um conjunto de feições selecionado para atualizar. Se a linha estiver <font class='maxRecordInIntro'>destacada</font>, o número máximo de registros foi excedido.",
-  "widgetIntroSelectByFeature": "Utilize a ferramenta abaixo para selecionar uma feição da camada <font class='layerInIntro'>${0}</font>. Esta feição será utilizada para selecionar e atualizar todas as feições da intersecção. Se a linha estiver <font class='maxRecordInIntro'>destacada</font>, o número máximo de registros foi excedido.",
-  "widgetIntroSelectByFeatureQuery": "Utilize a ferramenta abaixo para selecionar uma feição da camada  <font class='layerInIntro'>${0}</font> . Este atributo <font class='layerInIntro'>${1}</font> da feição será utilizado para consultar as camadas abaixo e atualizar as feições resultantes. Se a linha estiver <font class='maxRecordInIntro'>destacada</font>, o número máximo de registros foi excedido.",
-  "widgetIntroSelectByQuery": "Insira um valor para criar um conjunto de seleção. Se a linha estiver <font class='maxRecordInIntro'>destacada</font>, o número máximo de registros foi excedido.",
+  "widgetIntroSelectByArea": "Use one of the tools below to create a selected set of features to update.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeature": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> layer.  This feature will be used select and update all intersecting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeatureQuery": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> .  This feature's <font class='layerInIntro'>${1}</font> attribute will be used to query the layers below and update the resulting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByQuery": "Enter a value to create a selection set.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
   "layerTable": {
     "colLabel": "Nome da Camada",
     "numSelected": "#",
@@ -17,9 +17,10 @@ define({
   "featuresUpdated": "${0} / ${1} feições atualizadas",
   "featuresSelected": "${0} feições selecionadas",
   "featuresSkipped": "Validado",
+  "featuresNoPermision": "${0} feições selecionadas, mas sem permissão para editar.",
   "search": "Pesquisar",
   "queryInput": "Insira um valor para consultar",
-  "noFilterTip": "Sem expressão de filtro definida, esta tarefa de consulta listará todas as feições na fonte de dados especificada.",
+  "noFilterTip": "Without filter expression defined, this query task will list all features in the specified data source.",
   "setFilterTip": "Configure o filtro corretamente.",
   "filterPopup": "Filtrar Camada",
   "filterAppend": "Se já existe um filtro no mapa da web para esta camada",
@@ -47,7 +48,7 @@ define({
     "startToolTip": "Desenhe uma forma para selecionar feições"
   },
   "errors": {
-    "layerNotFound": "A camada ${0} com ID ${1} não foi localizada no mapa, o mapa pode ter mudado desde a configuração do widget",
+    "layerNotFound": "Layer ${0} with ID ${1} was not found in the map, the map may have changed since the widgets configuration",
     "queryNullID": "A feição do ${0} retornou um ID inválido",
     "noSelectedLayers": "Nenhuma camada selecionada com registros para atualizar",
     "inputValueError": "Valor inválido no formulário",

@@ -1,9 +1,9 @@
 define({
   "_widgetLabel": "עורך מאפיינים באצווה",
-  "widgetIntroSelectByArea": "השתמש באחד הכלים להלן כדי ליצור סט נבחר של ישויות לעדכון. אם השורה <font class='maxRecordInIntro'>מודגשת</font>, חרגת ממספר הרשומות המרבי.",
-  "widgetIntroSelectByFeature": "השתמש בכלי להלן לבחירת ישות מתוך השכבה <font class='layerInIntro'>${0}</font>. ישות זו תשמש לבחירה ועדכון של כל הישויות המצטלבות. אם השורה <font class='maxRecordInIntro'>מודגשת</font>, חרגת ממספר הרשומות המרבי.",
-  "widgetIntroSelectByFeatureQuery": "השתמש בכלי להלן לבחירת ישות מתוך <font class='layerInIntro'>${0}</font>. המאפיין <font class='layerInIntro'>${1}</font> של הישות ישמש לשליחת שאילתות אל השכבות שלהלן ולעדכון השכבות שיתקבלו כתוצאה מכך. אם השורה <font class='maxRecordInIntro'>מודגשת</font>, חרגת ממספר הרשומות המרבי.",
-  "widgetIntroSelectByQuery": "הזן ערך כדי ליצור סט בחירה. אם השורה <font class='maxRecordInIntro'>מודגשת</font>, חרגת ממספר הרשומות המרבי.",
+  "widgetIntroSelectByArea": "Use one of the tools below to create a selected set of features to update.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeature": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> layer.  This feature will be used select and update all intersecting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeatureQuery": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> .  This feature's <font class='layerInIntro'>${1}</font> attribute will be used to query the layers below and update the resulting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByQuery": "Enter a value to create a selection set.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
   "layerTable": {
     "colLabel": "שם שכבה",
     "numSelected": "#",
@@ -17,9 +17,10 @@ define({
   "featuresUpdated": "${0} / ${1} ישויות עודכנו",
   "featuresSelected": "${0} ישויות נבחרו",
   "featuresSkipped": "נעקף",
+  "featuresNoPermision": "${0} ישות/ישויות נבחרו אך אין הרשאת עריכה.",
   "search": "חפש",
   "queryInput": "הזן ערך לשאילתא",
-  "noFilterTip": "מבלי להגדיר ביטוי לסינון, שאילתה זו תציג את כל הישויות במקור הנתונים שצוין.",
+  "noFilterTip": "Without filter expression defined, this query task will list all features in the specified data source.",
   "setFilterTip": "הגדר בבקשה סינון תקין.",
   "filterPopup": "שכבת סינון",
   "filterAppend": "אם מסנן כבר קיים במפת האינטרנט עבור שכבה זו",
@@ -47,7 +48,7 @@ define({
     "startToolTip": "צייר צורה כדי לבחור ישויות"
   },
   "errors": {
-    "layerNotFound": "השכבה ${0} שמספר הזיהוי שלה הוא ${1} לא נמצאה במפה, יתכן שחלו במפה שינויים מאז הגדרת הווידג'טים",
+    "layerNotFound": "Layer ${0} with ID ${1} was not found in the map, the map may have changed since the widgets configuration",
     "queryNullID": "השכבה מ- ${0} החזירה מספר זיהוי שגוי",
     "noSelectedLayers": "אין שכבות בחורות שקיימות בהן רשומות שיש לעדכן",
     "inputValueError": "קיים ערך לא חוקי בטופס",

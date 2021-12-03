@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Poligon slobodnom rukom",
     "selectBySpatQuery": "Selektuj po geoobjektu",
-    "selectByAttQuery": "Selektuj po geoobjektu i povezanim geoobjektima",
+    "selectByAttQuery": "Odaberi po vrednostima geoobjekata i deljenih atributa",
     "selectByQuery": "Selektuj po upitu",
     "toolNotSelected": "Izaberite metod selekcije",
     "noDrawToolSelected": "Odaberite barem jednu alatku za crtanje"

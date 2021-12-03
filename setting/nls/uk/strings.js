@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Довільний полігон",
     "selectBySpatQuery": "Вибрати за об’єктом",
-    "selectByAttQuery": "Вибрати за об’єктом та пов’язаними об'єктами",
+    "selectByAttQuery": "Вибрати за об’єктом і спільними значеннями атрибутів",
     "selectByQuery": "Вибрати за запитом",
     "toolNotSelected": "Виберіть метод вибору",
     "noDrawToolSelected": "Виберіть щонайменше один інструмент малювання"

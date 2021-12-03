@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Vapaankäden alue",
     "selectBySpatQuery": "Valitse kohteen mukaan",
-    "selectByAttQuery": "Valitse kohteen ja liittyvien kohteiden mukaan",
+    "selectByAttQuery": "Valitse kohteen ja jaettujen ominaisuustietoarvojen mukaan",
     "selectByQuery": "Valitse kyselyn mukaan",
     "toolNotSelected": "Valitse valintamenetelmä",
     "noDrawToolSelected": "Valitse vähintään yksi piirtotyökalu"

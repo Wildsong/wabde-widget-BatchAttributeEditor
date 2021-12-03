@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Brīvrokas laukums",
     "selectBySpatQuery": "Atlasīt pēc elementa",
-    "selectByAttQuery": "Atlasīt pēc elementa un saistītajiem elementiem",
+    "selectByAttQuery": "Atlasīt pēc elementa un koplietotajām atribūta vērtībām",
     "selectByQuery": "Atlasīt pēc vaicājuma",
     "toolNotSelected": "Lūdzu, norādiet atlases metodi",
     "noDrawToolSelected": "Lūdzu, izvēlieties vismaz vienu zīmēšanas rīku"

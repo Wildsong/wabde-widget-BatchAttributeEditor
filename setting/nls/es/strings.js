@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Polígono a mano alzada",
     "selectBySpatQuery": "Seleccionar por entidad",
-    "selectByAttQuery": "Seleccionar por entidad y por entidades relacionadas",
+    "selectByAttQuery": "Seleccionar por entidad y valores de atributos compartidos",
     "selectByQuery": "Seleccionar por consulta",
     "toolNotSelected": "Elige un método de selección",
     "noDrawToolSelected": "Elija al menos una herramienta de dibujo"

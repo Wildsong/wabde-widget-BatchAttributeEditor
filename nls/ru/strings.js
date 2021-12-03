@@ -1,9 +1,9 @@
 define({
   "_widgetLabel": "Пакетный редактор атрибутов",
-  "widgetIntroSelectByArea": "Используйте один из указанных ниже инструментов для создания поднабора объектов для обновления.  Если строка <font class='maxRecordInIntro'>выделена</font>, максимальное число записей превышено.",
-  "widgetIntroSelectByFeature": "Используйте инструмент ниже, чтобы выделить объект на слое <font class='layerInIntro'>${0}</font>.  Этот объект будет использован для выборки и обновления всех пересекающихся с ним объектов.  Если строка <font class='maxRecordInIntro'>выделена</font>, максимальное число записей превышено.",
-  "widgetIntroSelectByFeatureQuery": "Используйте инструмент ниже, чтобы выделить объект на слое <font class='layerInIntro'>${0}</font>.  Атрибут <font class='layerInIntro'>${1}</font> этого объекта будет использован для запроса указанных ниже слоев и обновления полученных объектов.  Если строка <font class='maxRecordInIntro'>выделена</font>, максимальное число записей превышено.",
-  "widgetIntroSelectByQuery": "Введите значение для создания выбранных наборов.  Если строка <font class='maxRecordInIntro'>выделена</font>, максимальное число записей превышено.",
+  "widgetIntroSelectByArea": "Use one of the tools below to create a selected set of features to update.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeature": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> layer.  This feature will be used select and update all intersecting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeatureQuery": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> .  This feature's <font class='layerInIntro'>${1}</font> attribute will be used to query the layers below and update the resulting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByQuery": "Enter a value to create a selection set.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
   "layerTable": {
     "colLabel": "Имя слоя",
     "numSelected": "#",
@@ -17,9 +17,10 @@ define({
   "featuresUpdated": "${0} / ${1} объектов обновлено",
   "featuresSelected": "${0} объектов выделено",
   "featuresSkipped": "Пропущено",
+  "featuresNoPermision": "Выбрано ${0} объекта(ов), но нет разрешения на редактирование.",
   "search": "Поиск",
   "queryInput": "Введите значение для запроса",
-  "noFilterTip": "Если не задано выражение для фильтра, этот запрос перечислит все объекты указанного источника данных.",
+  "noFilterTip": "Without filter expression defined, this query task will list all features in the specified data source.",
   "setFilterTip": "Задайте корректный фильтр.",
   "filterPopup": "Фильтр слоя",
   "filterAppend": "Если фильтр уже задан в веб-карте для этого слоя",
@@ -47,7 +48,7 @@ define({
     "startToolTip": "Нарисуйте рамку, чтобы выбрать объекты"
   },
   "errors": {
-    "layerNotFound": "Слой ${0} с ID ${1} не был найден на карте, карта могла быть изменена после настройки виджета",
+    "layerNotFound": "Layer ${0} with ID ${1} was not found in the map, the map may have changed since the widgets configuration",
     "queryNullID": "Объект из ${0} вернул недостоверный ID",
     "noSelectedLayers": "Нет выбранных слоев с записями для обновления",
     "inputValueError": "Недопустимое значение в форме",

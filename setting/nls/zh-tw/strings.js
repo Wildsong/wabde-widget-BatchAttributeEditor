@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "手繪多邊形",
     "selectBySpatQuery": "按圖徵選擇",
-    "selectByAttQuery": "按圖徵與相關圖徵選擇",
+    "selectByAttQuery": "按圖徵與分享的屬性值選擇",
     "selectByQuery": "按查詢選擇",
     "toolNotSelected": "請選擇一個選擇方法",
     "noDrawToolSelected": "請至少選擇一個繪製工具"

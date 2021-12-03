@@ -15,7 +15,7 @@ define({
     },
     "freehandPolygon": "Szabadkézi sokszög",
     "selectBySpatQuery": "Kijelölés vektoros elem szerint",
-    "selectByAttQuery": "Kiválasztás vektoros elem és kapcsolt elemek szerint",
+    "selectByAttQuery": "Vektoros elem és megosztott attribútumértékek szerinti kiválasztás",
     "selectByQuery": "Kiválasztás lekérdezéssel",
     "toolNotSelected": "Válasszon egy kijelölési módszert",
     "noDrawToolSelected": "Válasszon legalább egy rajzeszközt"

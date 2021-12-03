@@ -1,9 +1,9 @@
 define({
   "_widgetLabel": "Množični urejevalnik atributov",
-  "widgetIntroSelectByArea": "Uporabite eno izmed spodnjih orodij, da ustvarite izbran sklop geoobjektov za posodobitev. Če je vrstica <font class='maxRecordInIntro'>osvetljena</font>, je bilo preseženo največje število zapisov.",
-  "widgetIntroSelectByFeature": "S pomočjo spodnjega orodja izberite geoobjekt iz <font class='layerInIntro'>${0}</font> sloja.  Ta geoobjekt bo uporabljen za izbiro in posodobitev presečnih geoobjektov. Če je vrstica <font class='maxRecordInIntro'>osvetljena</font>, je bilo preseženo največje število zapisov.",
-  "widgetIntroSelectByFeatureQuery": "S pomočjo spodnjega orodja izberite geoobjekt iz <font class='layerInIntro'>${0}</font>. Atribut tega sloja <font class='layerInIntro'>${1}</font> bo uporabljen za poizvedbo spodnjih slojev in posodobitev posledičnih geoobjektov. Če je vrstica <font class='maxRecordInIntro'>osvetljena</font>, je bilo preseženo največje število zapisov.",
-  "widgetIntroSelectByQuery": "Vnesite vrednost za ustvarjanje nabor izbire. Če je vrstica <font class='maxRecordInIntro'>osvetljena</font>, je bilo preseženo največje število zapisov.",
+  "widgetIntroSelectByArea": "Use one of the tools below to create a selected set of features to update.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeature": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> layer.  This feature will be used select and update all intersecting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByFeatureQuery": "Use the tool below to select a feature from <font class='layerInIntro'>${0}</font> .  This feature's <font class='layerInIntro'>${1}</font> attribute will be used to query the layers below and update the resulting features.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
+  "widgetIntroSelectByQuery": "Enter a value to create a selection set.  If the row is <font class='maxRecordInIntro'>highlighted</font>, the maximum number of records has been exceeded.",
   "layerTable": {
     "colLabel": "Ime sloja",
     "numSelected": "št.",
@@ -17,9 +17,10 @@ define({
   "featuresUpdated": "Posodobljenih je ${0}/${1} geoobjektov",
   "featuresSelected": "Izbranih je ${0} geoobjektov",
   "featuresSkipped": "Zaobideno",
+  "featuresNoPermision": "${0} geoobjektov je izbranih, ampak ni dovoljenja za urejanje.",
   "search": "Iskanje",
   "queryInput": "Vnesite vrednost za poizvedbo",
-  "noFilterTip": "Če izraz filtra ni določen, bo ta naloga poizvedbe prikazala vse geoobjekte v navedenih virih podatkov.",
+  "noFilterTip": "Without filter expression defined, this query task will list all features in the specified data source.",
   "setFilterTip": "Pravilno nastavite filter.",
   "filterPopup": "Filtriraj sloj",
   "filterAppend": "Če filter že obstaja v spletni karti za ta sloj",
@@ -47,7 +48,7 @@ define({
     "startToolTip": "Narišite obliko za izbiro geoobjektov"
   },
   "errors": {
-    "layerNotFound": "Sloja ${0} z ID ${1} ni mogoče najti na karti. Karta se je morda že spremenila od konfiguracije pripomočkov.",
+    "layerNotFound": "Layer ${0} with ID ${1} was not found in the map, the map may have changed since the widgets configuration",
     "queryNullID": "Geoobjekt iz ${0} je vrnil neveljaven ID",
     "noSelectedLayers": "Ni izbranih slojev z zapisi za posodabljanje",
     "inputValueError": "Neveljavna vrednost v obrazcu",
